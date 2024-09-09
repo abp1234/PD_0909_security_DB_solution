@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nestjs-service
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nestjs-service
+  template:
+    metadata:
+      labels:
+        app: nestjs-service
+    spec:
+      containers:
+      - name: nestjs-service
+        image: nestjs-service:latest
+        ports:
+        - containerPort: 3000
