@@ -3,9 +3,7 @@
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
       <module name="springboot-service.springboot-service.main" target="17" />
-      <module name="springboot-service.springboot-service.main~1" target="17" />
       <module name="springboot-service.springboot-service.test" target="17" />
-      <module name="springboot-service.springboot-service.test~1" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
